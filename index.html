@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- models -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Recipient:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     <!-- close model -->
+
+    <header class="container-fluid" id="navTag">
+        <nav class="navbar navbar-expand-lg">
+            <a href="#" class="navbar-brand"><img src="https://tech.ebu.ch/modules/techModule/img/menu/img_header_logo_ebu.svg" alt=""></a>
+            <a href="#" class="navbar-brand">
+                <h4 class="text-white">TECHNOLOGY INNOVATION</h4>
+
+
+            </a>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse justify-content-end align-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">NEWS</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">EVENTS</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">PUBLICATIONS</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">OUR WORK</a>
+
+                    </li>
+                    <li class="nav-item" >
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" id="models1">LOGIN <i class="fa-solid fa-right-to-bracket"></i></button>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="fa-solid fa-magnifying-glass fs-4"></i></a>
+
+                    </li>
+
+                </ul>
+
+              </div>
+
+        </nav>
+        
+
+    </header>
+    <section class="container-fluid mt-5">
+    
+        <div class="container">
+            <h1 class="text-secondary fs-1">METADATA IN THE NEWSROOM – A PRACTICAL <br> APPROACH</h1>
+           <div class="row">
+            <div class="col-lg-2">
+                <div class="mt-3 pre">
+                    <h5>presentation</h5>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="mt-3">
+                    <p>27 May 2021</p>
+                </div>
+            </div>
+           </div>
+        </div>
+       
+
+    </section>
+    <section class="container-fluid">
+        <div class="container">
+            <div class="row">
+               
+                    <div class="col-lg-9">
+                        <div class="imgclr">
+                            <img src="https://emp-media-prod.s3.amazonaws.com/20210531073054_60b490ae87f45/thumbnails/1622446254_0_20210531073054_60b490ae87f45.jpg" alt="" class="img-fluid">
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                            <h4>RECOMMENDED</h4>
+                            <h5>PUBLICATIONS</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div>
+                                    <img src="https://emp-media-prod.s3.amazonaws.com/20210531073033_60b4909972526/thumbnails/1622446233_0_20210531073033_60b4909972526.jpg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="fs-6 fw-bold asset">
+                                    <p class="">Video asset <br>Publication <br>across digital <br> Channel</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <div>
+                                    <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/techreview/trev_2015-Q4_Applicability-of-IMF.pdf/thumbnail-256.webp" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="fs-6 fw-bold asset">
+                                    <p class="">Take Review 2015<br>IMF <br>REquirements  </p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-6 mt-3">
+                                <div>
+                                    <h5>NEWS</h5>
+                                    <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/news/2024_06/Kazim-Pektas_1280x720.jpg/thumbnail-256.webp" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="fs-6 fw-bold asset">
+                                    <p>Mining & Refining <br>data to Discover Unknown</p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+               
+            </div>
+        </div>
+
+    </section>
+    <section class="container-fluid my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div>
+                                    <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/events/mdn2021/presentations/03_1140_K_Mathiasen_TV2_Metadata_i_news_a_pactical_approach.pdf/thumbnail-256.webp" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="btnss gy-3 gap-3">
+                                    <button class="">OPEN FILE (PDF 3.8MB)</button>
+                                    <button class=" bb">EMAIL ME A LINK</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                           <div class="row">
+                            <div class="col-lg-2">
+                                <h5>Presenter(s)</h5>
+                            </div>
+                            <div class="col-lg-8">
+                                <p>:Kurt Mathiasen (TV 2 Denmark)</p>
+                            </div>
+                           </div>
+                           <div class="col-lg-12">
+                            <h5>Events <span class="fs-8">MDN Workshop 2021</span></h5>
+                            <p>As the number of applications a journalist must handle grows, at almost the same rate as the choice for content, easier ways to manage metadata creation must be found, even when development resources are limited. This presentation covers some of TV 2 Denmark's thinking in their drive to enrich content with metadata in the newsroom and make content more "findable" in production.</p>
+                           </div>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                   <div class="row">
+                    <div class="col-lg-6">
+                        <div>
+                            <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/news/2024_03/data_article_1280x720.png/thumbnail-256.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="fs-6 fw-bold asset">
+                            <p>Putting data at the heart successful PSM Strategics</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div>
+                            <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/news/2023_09/antonio_arcidiacono_2023_1280x720.jpg/thumbnail-256.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="fs-6 fw-bold asset">
+                            <p>Putting data at the heart successful PSM Strategics</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div>
+                            <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/news/2023_11/eo_deepfakes_1280x720.jpg/thumbnail-256.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="fs-6 fw-bold asset">
+                            <p>Putting data at the heart successful PSM Strategics</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div>
+                            <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/news/2023_09/willemroskam_cto_npo_1280x720.jpg/thumbnail-256.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="fs-6 fw-bold asset">
+                            <p>Putting data at the heart successful PSM Strategics</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div>
+                            <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/news/2023_09/cg_animation_group_1280x720.jpg/thumbnail-256.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="fs-6 fw-bold asset">
+                            <p>Putting data at the heart successful PSM Strategics</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div>
+                            <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/news/2022_03/antonio_arcidiacono_1280x720.jpg/thumbnail-256.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="fs-6 fw-bold asset">
+                            <p>Putting data at the heart successful PSM Strategics</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div>
+                            <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/news/2022_12/stijn_lehaen_1280x720.jpg/thumbnail-256.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="fs-6 fw-bold asset">
+                            <p>Putting data at the heart successful PSM Strategics</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div>
+                            <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/news/2022_03/antonio_arcidiacono_1280x720.jpg/thumbnail-256.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="fs-6 fw-bold asset">
+                            <p>Putting data at the heart successful PSM Strategics</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div>
+                            <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/events/webinar035-dfxp/dfxp-icon-174x115.jpg/thumbnail-174.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="fs-6 fw-bold asset">
+                            <p>Putting data at the heart successful PSM Strategics</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div>
+                            <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/events/mmr07/ebu_mmr07_icon.jpg/thumbnail-174.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="fs-6 fw-bold asset">
+                            <p>Putting data at the heart successful PSM Strategics</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div>
+                            <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/news/2022_12/stijn_lehaen_1280x720.jpg/thumbnail-256.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="fs-6 fw-bold asset">
+                            <p>Putting data at the heart successful PSM Strategics</p>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid " id="more">
+        <div class="container">
+            <div class="text-white mt-4">
+                <h2>MORE PUBLICATIONS</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-1">
+                    <div>
+                        <img src="https://emp-media-prod.s3.amazonaws.com/20240708193945_668c4081ce836/thumbnails/1720467588_3_20240708193945_668c4081ce836.jpg" alt="" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="bg-white  cntr">
+                        <p>Event & 24/7  Live Streaming on AWS</p>
+                    </div>
+                    <div class="text-white wht">
+                        <p>Event and <br> Live Streaming</p>
+                    </div>
+                </div>
+                <div class="col-lg-1">
+                    <div>
+                        <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/events/workshop_2024_satellite/presentations/EBU_Satellites_workshop_2024_Thomas_Welter_ANFR_The_satellite-heavy_WRC27.pdf/thumbnail-256.webp" alt="" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="bg-white  cntr">
+                        <p>Ensuring setellite remains available for media applications</p>
+                    </div>
+                    <div class="text-white wht">
+                        <p>WRC-27. <br>The Satellite- <br>Heavy WRC</p>
+                    </div>
+                </div>
+                <div class="col-lg-1">
+                    <div>
+                        <img src="https://emp-media-prod.s3.amazonaws.com/20240709140650_668d43fac92c0/thumbnails/1720534013_5_20240709140650_668d43fac92c0.jpg" alt="" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="bg-white  cntr">
+                        <p>Ensuring setellite remains available for media applications</p>
+                    </div>
+                    <div class="text-white wht">
+                        <p>The Current <br> Regulatory <br>Regime:ITU RR <br> and Various <br>Appendixes</p>
+                    </div>
+                </div>
+                <div class="col-lg-1">
+                    <div>
+                        <img src="https://www.ebu-cdn.ch/sites/tech/files/shared/events/workshop_2024_satellite/presentations/EBU_Satellites_workshop_2024_Jos%C3%A9_Luis_Alcolea_Hispasat_5G_NTN_for_the_satellite_industry.pdf/thumbnail-256.webp" alt="" class="w-100">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="bg-white  cntr">
+                        <p>Ensuring setellite remains available for media applications</p>
+                    </div>
+                    <div class="text-white wht">
+                        <p>5G NTN,What's <br>in it <br> for the satellite <br>industry?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div>
+                        <img src="https://tech.ebu.ch/modules/techModule/img/menu/img_footer_ebu.svg" alt="">
+                        <p class="pt-4 text-secondary">The European Broadcasting Union is the world’s foremost alliance of public service media, representing over a hundred organizations worldwide. We strive to secure a sustainable future for public service media, provide our Members with world-class content through the Eurovision and Euroradio brands, and build on our founding ethos of solidarity and co-operation to create a centre for learning and sharing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="text-secondary our">
+                        <h5>OUR SERVICES</h5>
+                        <p><i class="fa-solid fa-arrow-up-right-from-square"></i>Eurovision News</p>
+                        <p> <i class="fa-solid fa-arrow-up-right-from-square"></i>Eurovision Sport</p>
+                        <p> <i class="fa-solid fa-arrow-up-right-from-square"></i>Legal & Policy</p>
+                        <p> <i class="fa-solid fa-arrow-up-right-from-square"></i>Media</p>
+                        <p> <i class="fa-solid fa-arrow-up-right-from-square"></i>Media Intelligence</p>
+                        <p> <i class="fa-solid fa-arrow-up-right-from-square"></i>Radio Technology & Innovation</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="text-secondary our">
+                        <h5>FOLLOW THE EBU</h5>
+                        <p> <i class="fa-brands fa-linkedin"></i>Linkdin</p>
+                        <p> <i class="fa-brands fa-facebook"></i>Facebook</p>
+                        <p> <i class="fa-brands fa-instagram"></i>Instagram</p>
+                        <p> <i class="fa-brands fa-twitter"></i>Twitter</p>
+                        <p><i class="fa-brands fa-youtube"></i> YouTube</p>
+                        
+                    </div>
+                   
+                </div>
+                <div class="col-lg-3 text-secondary">
+                    <div class="our">
+                        <h5>OUR WEBSITES</h5>
+                        <p><i class="fa-solid fa-arrow-up-right-from-square"></i>EBU Workspace</p>
+                        <p><i class="fa-solid fa-arrow-up-right-from-square"></i>Eurovision Song Contest</p>
+                        <p><i class="fa-solid fa-arrow-up-right-from-square"></i> Eurovision Services</p>
+                        <p>See a list of all websites</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="container-fluid bg-secondary p-2 my-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center text-white">
+                        <p class="pt-3">COPYRIGHT EBU 2023. ALL RIGHTS RESERVED.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+</html>
